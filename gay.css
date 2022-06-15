@@ -3,11 +3,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 850px;
     background-color: gainsboro;
 }
 
 .conteudo {
+    margin-top: 50px;
     background-color: rgb(172, 172, 172);
     width: 40%;
     height: 300px;
