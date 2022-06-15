@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 850px;
+    background-color: gainsboro;
+}
+
+.conteudo {
+    background-color: rgb(172, 172, 172);
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.fechar {
+    right: 0;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#fechar {
+    background-color: rgb(255, 62, 62);
+    border-left: 1px solid black;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+}
+
+#fechar2 {
+    background-color: rgb(255, 62, 62);
+    border-left: 1px solid black;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    font-weight: bolder;
+    border-top-right-radius: 10px;
+}
+
+.pergunta {
+    font-family: Arial;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    width: 100%;
+}
+
+#sim {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+
+#nao {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 1.5px solid black;
+}
+
+#nao:hover {
+    background-color: pink;
+}
+
+#fechar:hover {
+    background-color: pink;
+}
+
+.resultado {
+    margin-top: 10px;
+}
