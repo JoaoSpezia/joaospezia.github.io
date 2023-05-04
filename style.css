@@ -1,38 +1,150 @@
+@font-face {
+    font-family: 'YatraOne';
+    src: url(YatraOne-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 .cont {
-    margin: 10% 30%;
+    margin: 5% 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(214, 213, 213);
+    background-color: rgb(152, 152, 152);
 }
 
 .visor {
     padding: 1% 3%;
     text-align: right;
     width: 90%;
-    height: 30px;
+    height: 70px;
     margin: 2% 12%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     background-color: white;
     font-family: Verdana;
-    font-size: 150%;
+    font-family: YatraOne;
+}
+
+.mem {
+    height: 20px;
+    font-size: 100%;
+}
+
+.atual {
+    bottom: 0;
+    margin-top: -3%;
+    font-size: 300%;
 }
 
 .linha {
-    padding: 1% 3%;
+    padding: 3% 3%;
+    width: 96%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2%;
+    gap: 5%;
+}
 
+.botao {
+    width: 20%;
+    padding-bottom: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#n0 {
+    background-image: url("img/0.png");
+    background-color: gainsboro;
+}
+
+#n1 {
+    background-image: url("img/1.png");
+    background-color: gainsboro;
+}
+
+#n2 {
+    background-image: url("img/2.png");
+    background-color: gainsboro;
+}
+
+#n3 {
+    background-image: url("img/3.png");
+    background-color: gainsboro;
+}
+
+#n4 {
+    background-image: url("img/4.png");
+    background-color: gainsboro;
+}
+
+#n5 {
+    background-image: url("img/5.png");
+    background-color: gainsboro;
+}
+
+#n6 {
+    background-image: url("img/6.png");
+    background-color: gainsboro;
+}
+
+#n7 {
+    background-image: url("img/7.png");
+    background-color: gainsboro;
+}
+
+#n8 {
+    background-image: url("img/8.png");
+    background-color: gainsboro;
+}
+
+#n9 {
+    background-image: url("img/9.png");
+    background-color: gainsboro;
+}
+
+#cl {
+    background-image: url("img/c.png");
+    background-color: rgb(255, 190, 190);
+}
+
+#res {
+    background-image: url("img/res.png");
+    background-color: rgb(184, 255, 208);
+}
+
+#div {
+    background-image: url("img/div.png");
+    background-color: rgb(191, 191, 191);
+}
+
+#mult {
+    background-image: url("img/mult.png");
+    background-color: rgb(191, 191, 191);
+}
+
+#sub {
+    background-image: url("img/sub.png");
+    background-color: rgb(191, 191, 191);
+}
+
+#soma {
+    background-image: url("img/soma.png");
+    background-color: rgb(191, 191, 191);
 }
