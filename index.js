@@ -45,6 +45,7 @@ res.addEventListener('click', () => {
                     mem.innerHTML = res_temp
                     atual.innerHTML = 'RESULTADO ▲'
                 }
+                cal = 1
             break;
             case 'SUB':
                 res_temp = Number(v1) - Number(v2)
@@ -55,6 +56,7 @@ res.addEventListener('click', () => {
                     mem.innerHTML = res_temp
                     atual.innerHTML = 'RESULTADO ▲'
                 }
+                cal = 1
             break;
             case 'MULT':
                 res_temp = Number(v1) * Number(v2)
@@ -65,22 +67,30 @@ res.addEventListener('click', () => {
                     mem.innerHTML = res_temp
                     atual.innerHTML = 'RESULTADO ▲'
                 }
+                cal = 1
             break;
             case 'DIV':
-                res_temp = Number(v1) / Number(v2)
-                if(String(res_temp).length < 14) {
-                    mem.innerHTML = ''
-                    atual.innerHTML = res_temp
-                } else {
-                    mem.innerHTML = res_temp
-                    atual.innerHTML = 'RESULTADO ▲'
+                if(v2 != 0) {
+                    res_temp = Number(v1) / Number(v2)
+                    if(String(res_temp).length < 14) {
+                        mem.innerHTML = ''
+                        atual.innerHTML = res_temp
+                    } else {
+                        mem.innerHTML = res_temp
+                        atual.innerHTML = 'RESULTADO ▲'
+                    }
+                    cal = 1
                 }
+                v1 = null
+                op = null
+                v2 = null
+                mem.innerHTML = ''
+                atual.innerHTML = 'ERRO'
             break;
         }
         v1 = res_temp
         op = null
         v2 = null
-        cal = 1
     } else {
         mem.innerHTML = ''
         atual.innerHTML = 'ERRO'
