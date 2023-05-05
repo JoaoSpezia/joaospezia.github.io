@@ -80,12 +80,13 @@ res.addEventListener('click', () => {
                         atual.innerHTML = 'RESULTADO ▲'
                     }
                     cal = 1
+                } else {
+                    mem.innerHTML = ''
+                    atual.innerHTML = 'ERRO'
                 }
                 v1 = null
                 op = null
                 v2 = null
-                mem.innerHTML = ''
-                atual.innerHTML = 'ERRO'
             break;
         }
         v1 = res_temp
