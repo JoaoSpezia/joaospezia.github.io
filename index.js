@@ -113,6 +113,7 @@ n0.addEventListener('click', () => {
         } else {
             cal = 0
             atual.innerHTML = '0'
+            v1 = null
         }
     } else {
         if(v2 == null) {
