@@ -17,6 +17,10 @@ const mult = document.querySelector('#mult')
 const sub = document.querySelector('#sub')
 const soma = document.querySelector('#soma')
 var v1, op, v2, res_temp, cal
+const l1 = document.querySelector('#l1')
+const l2 = document.querySelector('#l2')
+const l3 = document.querySelector('#l3')
+const l4 = document.querySelector('#l4')
 
 cl.addEventListener('click', () => {
     v1 = null
@@ -495,4 +499,271 @@ div.addEventListener('click', () => {
         v2 = null
         atual.innerHTML = '0'
     }
+})
+
+n0.addEventListener('mousedown', () => {
+    n0.style.marginTop = '0.9%'
+    cl.style.marginTop = '-0.9%'
+    res.style.marginTop = '-0.9%'
+    soma.style.marginTop = '-0.9%'
+    l4.style.marginBottom = '0'
+})
+
+n0.addEventListener('mouseup', () => {
+    n0.style.marginTop = '0'
+    cl.style.marginTop = '0'
+    res.style.marginTop = '0'
+    soma.style.marginTop = '0'
+    l4.style.marginBottom = '0.9%'
+})
+
+cl.addEventListener('mousedown', () => {
+    n0.style.marginTop = '-0.9%'
+    cl.style.marginTop = '0.9%'
+    res.style.marginTop = '-0.9%'
+    soma.style.marginTop = '-0.9%'
+    l4.style.marginBottom = '0'
+})
+
+cl.addEventListener('mouseup', () => {
+    n0.style.marginTop = '0'
+    cl.style.marginTop = '0'
+    res.style.marginTop = '0'
+    soma.style.marginTop = '0'
+    l4.style.marginBottom = '0.9%'
+})
+
+res.addEventListener('mousedown', () => {
+    n0.style.marginTop = '-0.9%'
+    cl.style.marginTop = '-0.9%'
+    res.style.marginTop = '0.9%'
+    soma.style.marginTop = '-0.9%'
+    l4.style.marginBottom = '0'
+})
+
+res.addEventListener('mouseup', () => {
+    n0.style.marginTop = '0'
+    cl.style.marginTop = '0'
+    res.style.marginTop = '0'
+    soma.style.marginTop = '0'
+    l4.style.marginBottom = '0.9%'
+})
+
+soma.addEventListener('mousedown', () => {
+    n0.style.marginTop = '-0.9%'
+    cl.style.marginTop = '-0.9%'
+    res.style.marginTop = '-0.9%'
+    soma.style.marginTop = '0.9%'
+    l4.style.marginBottom = '0'
+})
+
+soma.addEventListener('mouseup', () => {
+    n0.style.marginTop = '0'
+    cl.style.marginTop = '0'
+    res.style.marginTop = '0'
+    soma.style.marginTop = '0'
+    l4.style.marginBottom = '0.9%'
+})
+
+n1.addEventListener('mousedown', () => {
+    n1.style.marginTop = '0.9%'
+    n2.style.marginTop = '-0.9%'
+    n3.style.marginTop = '-0.9%'
+    sub.style.marginTop = '-0.9%'
+    l3.style.marginBottom = '0'
+})
+
+n1.addEventListener('mouseup', () => {
+    n1.style.marginTop = '0'
+    n2.style.marginTop = '0'
+    n3.style.marginTop = '0'
+    sub.style.marginTop = '0'
+    l3.style.marginBottom = '0.9%'
+})
+
+n2.addEventListener('mousedown', () => {
+    n1.style.marginTop = '-0.9%'
+    n2.style.marginTop = '0.9%'
+    n3.style.marginTop = '-0.9%'
+    sub.style.marginTop = '-0.9%'
+    l3.style.marginBottom = '0'
+})
+
+n2.addEventListener('mouseup', () => {
+    n1.style.marginTop = '0'
+    n2.style.marginTop = '0'
+    n3.style.marginTop = '0'
+    sub.style.marginTop = '0'
+    l3.style.marginBottom = '0.9%'
+})
+
+n3.addEventListener('mousedown', () => {
+    n1.style.marginTop = '-0.9%'
+    n2.style.marginTop = '-0.9%'
+    n3.style.marginTop = '0.9%'
+    sub.style.marginTop = '-0.9%'
+    l3.style.marginBottom = '0'
+})
+
+n3.addEventListener('mouseup', () => {
+    n1.style.marginTop = '0'
+    n2.style.marginTop = '0'
+    n3.style.marginTop = '0'
+    sub.style.marginTop = '0'
+    l3.style.marginBottom = '0.9%'
+})
+
+sub.addEventListener('mousedown', () => {
+    n1.style.marginTop = '-0.9%'
+    n2.style.marginTop = '-0.9%'
+    n3.style.marginTop = '-0.9%'
+    sub.style.marginTop = '0.9%'
+    l3.style.marginBottom = '0'
+})
+
+sub.addEventListener('mouseup', () => {
+    n1.style.marginTop = '0'
+    n2.style.marginTop = '0'
+    n3.style.marginTop = '0'
+    sub.style.marginTop = '0'
+    l3.style.marginBottom = '0.9%'
+})
+
+n4.addEventListener('mousedown', () => {
+    n4.style.marginTop = '0.9%'
+    n5.style.marginTop = '-0.9%'
+    n6.style.marginTop = '-0.9%'
+    mult.style.marginTop = '-0.9%'
+    l2.style.marginBottom = '0'
+})
+
+n4.addEventListener('mouseup', () => {
+    n4.style.marginTop = '0'
+    n5.style.marginTop = '0'
+    n6.style.marginTop = '0'
+    mult.style.marginTop = '0'
+    l2.style.marginBottom = '0.8%'
+    l3.style.marginBottom = '1%'
+    l4.style.marginBottom = '0.9%'
+})
+
+n5.addEventListener('mousedown', () => {
+    n4.style.marginTop = '-0.9%'
+    n5.style.marginTop = '0.9%'
+    n6.style.marginTop = '-0.9%'
+    mult.style.marginTop = '-0.9%'
+    l2.style.marginBottom = '0'
+})
+
+n5.addEventListener('mouseup', () => {
+    n4.style.marginTop = '0'
+    n5.style.marginTop = '0'
+    n6.style.marginTop = '0'
+    mult.style.marginTop = '0'
+    l2.style.marginBottom = '0.8%'
+    l3.style.marginBottom = '1%'
+    l4.style.marginBottom = '0.9%'
+})
+
+n6.addEventListener('mousedown', () => {
+    n4.style.marginTop = '-0.9%'
+    n5.style.marginTop = '-0.9%'
+    n6.style.marginTop = '0.9%'
+    mult.style.marginTop = '-0.9%'
+    l2.style.marginBottom = '0'
+})
+
+n6.addEventListener('mouseup', () => {
+    n4.style.marginTop = '0'
+    n5.style.marginTop = '0'
+    n6.style.marginTop = '0'
+    mult.style.marginTop = '0'
+    l2.style.marginBottom = '0.8%'
+    l3.style.marginBottom = '1%'
+    l4.style.marginBottom = '0.9%'
+})
+
+mult.addEventListener('mousedown', () => {
+    n4.style.marginTop = '-0.9%'
+    n5.style.marginTop = '-0.9%'
+    n6.style.marginTop = '-0.9%'
+    mult.style.marginTop = '0.9%'
+    l2.style.marginBottom = '0'
+})
+
+mult.addEventListener('mouseup', () => {
+    n4.style.marginTop = '0'
+    n5.style.marginTop = '0'
+    n6.style.marginTop = '0'
+    mult.style.marginTop = '0'
+    l2.style.marginBottom = '0.8%'
+    l3.style.marginBottom = '1%'
+    l4.style.marginBottom = '0.9%'
+})
+
+n7.addEventListener('mousedown', () => {
+    n7.style.marginTop = '0.9%'
+    n8.style.marginTop = '-0.9%'
+    n9.style.marginTop = '-0.9%'
+    div.style.marginTop = '-0.9%'
+    l1.style.marginBottom = '0'
+})
+
+n7.addEventListener('mouseup', () => {
+    n7.style.marginTop = '0'
+    n8.style.marginTop = '0'
+    n9.style.marginTop = '0'
+    div.style.marginTop = '0'
+    l1.style.marginBottom = '0.9%'
+    l2.style.marginBottom = '0.8%'
+    l3.style.marginBottom = '0.9%'
+    l4.style.marginBottom = '1%'
+})
+
+n8.addEventListener('mousedown', () => {
+    n7.style.marginTop = '-0.9%'
+    n8.style.marginTop = '0.9%'
+    n9.style.marginTop = '-0.9%'
+    div.style.marginTop = '-0.9%'
+    l1.style.marginBottom = '0'
+})
+
+n8.addEventListener('mouseup', () => {
+    n7.style.marginTop = '0'
+    n8.style.marginTop = '0'
+    n9.style.marginTop = '0'
+    div.style.marginTop = '0'
+    l1.style.marginBottom = '0.9%'
+})
+
+n9.addEventListener('mousedown', () => {
+    n7.style.marginTop = '-0.9%'
+    n8.style.marginTop = '-0.9%'
+    n9.style.marginTop = '0.9%'
+    div.style.marginTop = '-0.9%'
+    l1.style.marginBottom = '0'
+})
+
+n9.addEventListener('mouseup', () => {
+    n7.style.marginTop = '0'
+    n8.style.marginTop = '0'
+    n9.style.marginTop = '0'
+    div.style.marginTop = '0'
+    l1.style.marginBottom = '0.9%'
+})
+
+div.addEventListener('mousedown', () => {
+    n7.style.marginTop = '-0.9%'
+    n8.style.marginTop = '-0.9%'
+    n9.style.marginTop = '-0.9%'
+    div.style.marginTop = '0.9%'
+    l1.style.marginBottom = '0'
+})
+
+div.addEventListener('mouseup', () => {
+    n7.style.marginTop = '0'
+    n8.style.marginTop = '0'
+    n9.style.marginTop = '0'
+    div.style.marginTop = '0'
+    l1.style.marginBottom = '0.9%'
 })

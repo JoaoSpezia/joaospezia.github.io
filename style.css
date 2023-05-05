@@ -54,6 +54,22 @@
     gap: 5%;
 }
 
+#l1 {
+    margin-bottom: 0.9%;
+}
+
+#l2 {
+    margin-bottom: 0.9%;
+}
+
+#l3 {
+    margin-bottom: 0.9%;
+}
+
+#l4 {
+    margin-bottom: 1%;
+}
+
 .botao {
     width: 20%;
     padding-bottom: 20%;
@@ -147,4 +163,68 @@
 #soma {
     background-image: url("img/soma.png");
     background-color: rgb(191, 191, 191);
+}
+
+#n0:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n1:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n2:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n3:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n4:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n5:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n6:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n7:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n8:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#n9:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+#cl:hover {
+    background-color: rgb(255, 175, 175);
+}
+
+#res:hover {
+    background-color: rgb(135, 255, 190);
+}
+
+#div:hover {
+    background-color: rgb(181, 181, 181);
+}
+
+#mult:hover {
+    background-color: rgb(181, 181, 181);
+}
+
+#sub:hover {
+    background-color: rgb(181, 181, 181);
+}
+
+#soma:hover {
+    background-color: rgb(181, 181, 181);
 }
