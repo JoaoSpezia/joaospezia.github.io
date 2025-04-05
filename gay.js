@@ -21,28 +21,23 @@ nao.addEventListener('mouseleave', function() {
 })
 
 fechar.addEventListener('click', function() {
-    conteudo.innerHTML = '<div class="fechar"><button id="fechar2">X</button></div>'
-    conteudo.innerHTML += '<div class="resultado"><img src="ele_eh.jpg" width="250px"></div>'
-    const fechar2 = document.querySelector('#fechar2')
-    fechar2.addEventListener('click', function() {
-        location.reload();
-    })
+    animacao();
 })
 
 sim.addEventListener('click', function() {
-    conteudo.innerHTML = '<div class="fechar"><button id="fechar2">X</button></div>'
-    conteudo.innerHTML += '<div class="resultado"><img src="ele_eh.jpg" width="250px"></div>'
-    const fechar2 = document.querySelector('#fechar2')
-    fechar2.addEventListener('click', function() {
-        location.reload();
-    })
+    animacao();
 })
 
 nao.addEventListener('click', function() {
+    animacao();
+})
+
+function animacao() {
     conteudo.innerHTML = '<div class="fechar"><button id="fechar2">X</button></div>'
-    conteudo.innerHTML += '<div class="resultado"><img src="ele_eh.jpg" width="250px" border="1px solid black"></div>'
+    // conteudo.innerHTML += '<div class="resultado"><img src="ele_eh.jpg" width="250px" border="1px solid black"></div>'
+    conteudo.innerHTML += '<div class="resultado"><img src="feliz.png" width="350px" border="1px solid black"></div>'
     const fechar2 = document.querySelector('#fechar2')
     fechar2.addEventListener('click', function() {
         location.reload();
     })
-})
+}
